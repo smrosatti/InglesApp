@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="539.0" prefWidth="797.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.smr.inglesapp.controller.MenuController">
+   <children>
+      <Button alignment="BOTTOM_CENTER" contentDisplay="BOTTOM" graphicTextGap="0.0" layoutX="88.0" layoutY="75.0" mnemonicParsing="false" prefHeight="149.0" prefWidth="149.0" styleClass="bthotel" stylesheets="@Style.css" text="Hotel" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button alignment="TOP_LEFT" layoutX="60.0" layoutY="28.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="692.0" style="-fx-background-color: #0d9cfa;" text="Hotel" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <ListView fx:id="list" layoutX="52.0" layoutY="298.0" prefHeight="200.0" prefWidth="373.0" />
+      <Label fx:id="eng" alignment="CENTER" layoutX="441.0" layoutY="285.0" prefHeight="39.0" prefWidth="342.0" text="frase inglês" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="port" alignment="CENTER" layoutX="441.0" layoutY="358.0" prefHeight="39.0" prefWidth="342.0" text="frase port" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="btplay" layoutX="584.0" layoutY="429.0" mnemonicParsing="false" text="Play" />
+      <ComboBox layoutX="324.0" layoutY="103.0" prefHeight="37.0" prefWidth="379.0" promptText="Hotel" style="-fx-background-color: #0d9cfa;" />
+   </children>
+</AnchorPane>
